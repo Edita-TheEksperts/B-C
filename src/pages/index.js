@@ -39,7 +39,7 @@ export default function Home() {
     <div className="w-full ">
       <img 
         src="/images/B&C.png" 
-        alt="Description of image" 
+        alt="B&C - Be Brave and Creative" 
         className="w-full lg:h-[709px]"
       />
     </div>
@@ -140,13 +140,14 @@ MrBurger</h4>
 
     </div>
   </div>
-
-  <div class="w-[297px] h-[560px] flex-shrink-0 bg-gray-300">
+ <div className="flex space-x-[25px] justify-center items-center px-4 lg:px-0">
+  <div class="w-[175px] md:w-[250px] lg:w-[297px] h-[560px] flex-shrink-0 bg-gray-300">
     <img src="/images/Rectangle 3 (1).png" alt="B&C" class="w-full h-full object-cover"></img>
   </div>
 
-  <div class="w-[221px] h-[460px] flex-shrink-0 bg-gray-300">
+  <div class="w-[175px] md:w-[250px] lg:w-[221px] h-[460px] flex-shrink-0 bg-gray-300">
     <img src="/images/Rectangle 2 (1).png" alt="B&C" class="w-full h-full object-cover"></img>
+  </div>
   </div>
 </div>
 
@@ -175,13 +176,15 @@ MrBurger</h4>
 
 <section className="lg:mb-[170px] mb-[100px]">
 <div class="flex flex-wrap justify-center items-center gap-[25px] max-w-[1280px] mx-auto p-4">
-<div class="w-[221px] h-[460px] flex-shrink-0 bg-gray-300">
+<div className="flex space-x-[25px] justify-center items-center px-4 lg:px-0">
+
+<div class="w-[175px] md:w-[250px] lg:w-[221px] h-[460px] flex-shrink-0 bg-gray-300">
     <img src="/images/Rectangle 2 (2).png" alt="B&C" class="w-full h-full object-cover"></img>
   </div>
-  <div class="w-[297px] h-[560px] flex-shrink-0 bg-gray-300">
+  <div class="w-[175px] md:w-[250px] lg:w-[297px] h-[560px] flex-shrink-0 bg-gray-300">
     <img src="/images/Rectangle 3 (2).png" alt="B&C" class="w-full h-full object-cover"></img>
   </div>
-
+</div>
   <div class="flex flex-col items-center lg:p-[80px] p-4 border border-black w-[370px] lg:w-[560px] h-[630px] flex-shrink-0">
   <h3 class="text-[#141414] mb-[21px] text-center text-[15px] font-semibold leading-[20px] uppercase font-[Montserrat]">
   Follow us on instagram
