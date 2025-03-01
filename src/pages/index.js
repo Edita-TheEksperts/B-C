@@ -66,7 +66,7 @@ export default function Home() {
 
 <div className="flex justify-center px-4">
   <div className="lg:w-[885px] flex items-center text-left gap-6 bg-gray-100 rounded-lg mt-6 text-gray-800 text-sm md:text-[17px] font-montserrat text-[17px] leading-[29px] p-6">
-  This is the main idea that represent our company. We are a team of brave and creative, driven by passion, food lovers who wants to share joy to customers through food. Our main goal is to create a brand of interesting concepts that are based on high quality ingredients and delicious food. For now, we have created two different concepts that are focused on American and Italian cuisine.  </div>
+  This is the main idea that represents our company. We are a team of brave and creative, driven by passion, food lovers who wants to share joy to customers through food. Our main goal is to create a brand of interesting concepts that are based on high quality ingredients and delicious food. For now, we have created two different concepts that are focused on American and Italian cuisine.  </div>
 </div>
 
 
@@ -75,46 +75,11 @@ export default function Home() {
 <section className="lg:mb-[170px] mb-[100px]">
 <div class="flex items-center justify-center text-center">
   <div class="flex-grow border-b-4 border-black "></div>
-  <div class="text-black text-6xl font-normal tracking-tight leading-7 font-[Marcellus] px-5">Our Concept</div>
+  <div class="text-black text-6xl font-normal tracking-tight leading-7 font-[Marcellus] px-5">Our Concepts</div>
   <div class="flex-grow border-b-4 border-black "></div>
 </div>
 </section>
 
-<section className="lg:mb-[170px] mb-[100px]">
-<div class="flex flex-col lg:flex-row justify-center max-w-screen-lg mx-auto px-4 lg:px-0">
-  <div class="flex flex-col justify-center items-center flex-1 p-[40px_45px_20px_45px] max-w-full border-2 border-gray-50 shadow-sm">
-    <div class="mb-4 flex justify-center items-center">
-    <svg xmlns="http://www.w3.org/2000/svg" width="61" height="55" viewBox="0 0 61 55" fill="none">
-  <path d="M16.0851 36.8143C17.9875 30.4995 21.4236 24.7539 26.0869 20.0901C30.7501 15.4264 36.4955 11.9898 42.8101 10.0868M28.0001 32.0018L28.8851 32.8868M38.0001 22.0018L38.8851 22.8868M40.5001 34.5018L41.3851 35.3868M19.4551 13.4518C24.602 8.30614 30.8758 4.42887 37.7801 2.12684C39.1201 1.67684 40.5376 2.46684 40.9426 3.82184L52.8901 43.6418C53.0257 44.0926 53.0367 44.5717 52.9217 45.0282C52.8068 45.4846 52.5704 45.9014 52.2376 46.2343C51.9047 46.5671 51.4879 46.8036 51.0314 46.9185C50.575 47.0334 50.0959 47.0224 49.6451 46.8868L9.82512 34.9418C8.47012 34.5368 7.68012 33.1193 8.12762 31.7768C10.4296 24.8725 14.3094 18.5987 19.4551 13.4518Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-    </div>
-    <h3 class="text-[#121D27] text-center text-[30px] font-normal leading-[38px] mb-2">Delicious Pizza</h3>
-    <p class="text-[#4D5257] text-center text-[14px] font-normal leading-[26px] mb-1">Handcrafted with the freshest ingredients, our pizzas are baked to perfection in a stone-fired oven. Every slice is a burst of flavor, from our classic Margherita to our bold specialty creations.</p>
-  </div>
-
-  <div class="flex flex-col justify-center items-center flex-1 p-[40px_45px_20px_45px] max-w-full border-2 border-gray-50 shadow-sm">
-    <div class="mb-4 flex justify-center items-center">
-    <svg xmlns="http://www.w3.org/2000/svg" width="51" height="49" viewBox="0 0 51 49" fill="none">
-  <path d="M25.5 1.53125C12.5559 1.53125 2.0625 11.8147 2.0625 24.5C2.0625 37.1853 12.5559 47.4688 25.5 47.4688C38.4441 47.4688 48.9375 37.1853 48.9375 24.5C48.9375 11.8147 38.4441 1.53125 25.5 1.53125ZM39.8631 38.5758C36.3016 42.0557 31.5457 44.1114 26.522 44.3425C21.4984 44.5736 16.5669 42.9635 12.6884 39.826C8.80994 36.6884 6.26237 32.2482 5.54208 27.3704C4.82178 22.4926 5.98038 17.5267 8.79211 13.4403C11.6038 9.35396 15.8673 6.43985 20.7517 5.2658C25.6361 4.09175 30.7916 4.74188 35.2136 7.08949C39.6356 9.43711 43.0073 13.314 44.6718 17.9649C46.3364 22.6157 46.1744 27.7073 44.2175 32.2475C43.1977 34.6132 41.7188 36.7625 39.8631 38.5758Z" fill="black"/>
-  <path d="M25.5003 36.751C28.1939 36.751 30.7772 35.7024 32.6818 33.8358C34.5865 31.9692 35.6565 29.4376 35.6565 26.7979H15.344C15.344 29.4376 16.4141 31.9692 18.3187 33.8358C20.2234 35.7024 22.8067 36.751 25.5003 36.751ZM20.5938 21.8493L22.5943 19.4965L16.9065 14.8516L11.2188 19.4965L13.2193 21.8493L16.9065 18.838L20.5938 21.8493ZM28.4062 19.4965L30.4068 21.8493L34.094 18.838L37.7812 21.8493L39.7818 19.4965L34.094 14.8516L28.4062 19.4965Z" fill="black"/>
-</svg>
-    </div>
-    <h3 class="text-[#121D27] text-center text-[30px] font-normal leading-[38px] mb-2">Excellent Service</h3>
-    <p class="text-[#4D5257] text-center text-[14px] font-normal leading-[26px] mb-6">From the moment you walk in, our friendly staff is here to make your experience unforgettable. We pride ourselves on prompt, attentive service that makes you feel right at home.</p>
-  </div>
-
-  <div class="flex flex-col justify-center items-center flex-1 p-[40px_45px_20px_45px] max-w-full border-2 border-gray-50 shadow-sm">
-    <div class="mb-4 flex justify-center items-center">
-    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
-  <path d="M10.4167 24.5C9.3116 24.5 8.25179 24.061 7.47039 23.2796C6.68899 22.4982 6.25 21.4384 6.25 20.3333C6.25 16.4656 8.22544 12.7563 11.7417 10.0214C15.2581 7.28645 20.0272 5.75 25 5.75C29.9728 5.75 34.7419 7.28645 38.2582 10.0214C41.7746 12.7563 43.75 16.4656 43.75 20.3333C43.75 21.4384 43.311 22.4982 42.5296 23.2796C41.7482 24.061 40.6884 24.5 39.5833 24.5L32.2917 33.0417C30.625 35.125 27.2917 35.3333 25.2083 33.6667L14.5833 24.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M24.3753 32.8333H8.33366C7.22859 32.8333 6.16878 32.3943 5.38738 31.6129C4.60598 30.8315 4.16699 29.7717 4.16699 28.6667C4.16699 27.5616 4.60598 26.5018 5.38738 25.7204C6.16878 24.939 7.22859 24.5 8.33366 24.5H41.667C42.7721 24.5 43.8319 24.939 44.6133 25.7204C45.3947 26.5018 45.8337 27.5616 45.8337 28.6667C45.8337 29.7717 45.3947 30.8315 44.6133 31.6129C43.8319 32.3943 42.7721 32.8333 41.667 32.8333H32.7087M10.417 32.8333C9.31192 32.8333 8.25212 33.2723 7.47071 34.0537C6.68931 34.8351 6.25033 35.8949 6.25033 37C6.25033 40.5417 8.95866 43.25 12.5003 43.25H37.5003C41.042 43.25 43.7503 40.5417 43.7503 37C43.7503 35.8949 43.3113 34.8351 42.5299 34.0537C41.7485 33.2723 40.6887 32.8333 39.5837 32.8333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-    </div>
-    <h3 class="text-[#121D27] text-center text-[30px] font-normal leading-[38px] mb-2">Juicy Burgers</h3>
-    <p class="text-[#4D5257] text-center text-[14px] font-normal leading-[26px] mb-1">Sink your teeth into our mouthwatering burgers, made with 100% premium beef and grilled to juicy perfection. Topped with fresh ingredients and served on toasted buns, every bite is pure satisfaction.</p>
-  </div>
-</div>
-</section>
 
 <section className="lg:mb-[170px] mb-[100px]">
 <div class="flex flex-wrap justify-center items-center gap-[25px] max-w-[1280px] mx-auto p-4">
@@ -209,6 +174,31 @@ Our partly menu is already available online, so give it a try </p>
     <img src="/images/Rectangle 4 (1).png" alt="BC" class="w-[81px] h-[81px] object-cover"></img>
 
     </div>
+  </div>
+</div>
+</section>
+
+<section className="lg:mb-[170px] mb-[100px]">
+<div class="flex flex-col lg:flex-row justify-center max-w-screen-lg mx-auto px-4 lg:px-0">
+  <div class="flex flex-col justify-center items-center flex-1 p-[40px_45px_20px_45px] max-w-full border-2 border-gray-50 shadow-sm">
+    <div class="mb-4 flex justify-center items-center">
+    <svg xmlns="http://www.w3.org/2000/svg" width="61" height="55" viewBox="0 0 61 55" fill="none">
+  <path d="M16.0851 36.8143C17.9875 30.4995 21.4236 24.7539 26.0869 20.0901C30.7501 15.4264 36.4955 11.9898 42.8101 10.0868M28.0001 32.0018L28.8851 32.8868M38.0001 22.0018L38.8851 22.8868M40.5001 34.5018L41.3851 35.3868M19.4551 13.4518C24.602 8.30614 30.8758 4.42887 37.7801 2.12684C39.1201 1.67684 40.5376 2.46684 40.9426 3.82184L52.8901 43.6418C53.0257 44.0926 53.0367 44.5717 52.9217 45.0282C52.8068 45.4846 52.5704 45.9014 52.2376 46.2343C51.9047 46.5671 51.4879 46.8036 51.0314 46.9185C50.575 47.0334 50.0959 47.0224 49.6451 46.8868L9.82512 34.9418C8.47012 34.5368 7.68012 33.1193 8.12762 31.7768C10.4296 24.8725 14.3094 18.5987 19.4551 13.4518Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    </div>
+    <h3 class="text-[#121D27] text-center text-[30px] font-normal leading-[38px] mb-2">Delicious Pizza</h3>
+    <p class="text-[#4D5257] text-center text-[14px] font-normal leading-[26px] mb-1">Handcrafted with the freshest ingredients, our pizzas are baked to perfection in a stone-fired oven. Every slice is a burst of flavor, from our classic Margherita to our bold specialty creations.</p>
+  </div>
+
+  <div class="flex flex-col justify-center items-center flex-1 p-[40px_45px_20px_45px] max-w-full border-2 border-gray-50 shadow-sm">
+    <div class="mb-4 flex justify-center items-center">
+    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+  <path d="M10.4167 24.5C9.3116 24.5 8.25179 24.061 7.47039 23.2796C6.68899 22.4982 6.25 21.4384 6.25 20.3333C6.25 16.4656 8.22544 12.7563 11.7417 10.0214C15.2581 7.28645 20.0272 5.75 25 5.75C29.9728 5.75 34.7419 7.28645 38.2582 10.0214C41.7746 12.7563 43.75 16.4656 43.75 20.3333C43.75 21.4384 43.311 22.4982 42.5296 23.2796C41.7482 24.061 40.6884 24.5 39.5833 24.5L32.2917 33.0417C30.625 35.125 27.2917 35.3333 25.2083 33.6667L14.5833 24.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24.3753 32.8333H8.33366C7.22859 32.8333 6.16878 32.3943 5.38738 31.6129C4.60598 30.8315 4.16699 29.7717 4.16699 28.6667C4.16699 27.5616 4.60598 26.5018 5.38738 25.7204C6.16878 24.939 7.22859 24.5 8.33366 24.5H41.667C42.7721 24.5 43.8319 24.939 44.6133 25.7204C45.3947 26.5018 45.8337 27.5616 45.8337 28.6667C45.8337 29.7717 45.3947 30.8315 44.6133 31.6129C43.8319 32.3943 42.7721 32.8333 41.667 32.8333H32.7087M10.417 32.8333C9.31192 32.8333 8.25212 33.2723 7.47071 34.0537C6.68931 34.8351 6.25033 35.8949 6.25033 37C6.25033 40.5417 8.95866 43.25 12.5003 43.25H37.5003C41.042 43.25 43.7503 40.5417 43.7503 37C43.7503 35.8949 43.3113 34.8351 42.5299 34.0537C41.7485 33.2723 40.6887 32.8333 39.5837 32.8333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+    </div>
+    <h3 class="text-[#121D27] text-center text-[30px] font-normal leading-[38px] mb-2">Juicy Burgers</h3>
+    <p class="text-[#4D5257] text-center text-[14px] font-normal leading-[26px] mb-1">Sink your teeth into our mouthwatering burgers, made with 100% premium beef and grilled to juicy perfection. Topped with fresh ingredients and served on toasted buns, every bite is pure satisfaction.</p>
   </div>
 </div>
 </section>
