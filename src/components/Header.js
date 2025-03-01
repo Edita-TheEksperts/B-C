@@ -8,21 +8,21 @@ export default function Header() {
         <div className="flex lg:flex-row flex-col space-y-2 lg:space-y-0  items-center lg:space-x-[20px]">
           <div className="flex items-center space-x-1">
             <Image src="/icons/Symbol.svg" width={16} height={16} alt="Email" />
-            <span className="text-[14px] font-[400] text-[#FFFFFFF2]">info@by-bc.com</span>
-          </div>
+            <a href="mailto:info@by-bc.com" className="text-[14px] font-[400] text-[#FFFFFFF2]">info@by-bc.com</a>
+            </div>
           <div className="flex items-center space-x-1">
             <Image src="/icons/Symbol (1).svg" width={16} height={16} alt="Phone" />
-            <span className="text-[14px] font-[400] text-[#FFFFFFF2]">+420 736 700 880</span>
-          </div>
+            <a href="tel:+420736700880" className="text-[14px] font-[400] text-[#FFFFFFF2]">+420 736 700 880</a>
+            </div>
         </div>
         <div className="flex space-x-[20px]">
           <div className="flex flex-row space-x-1">     
             <Image src="/icons/Component 1 (1).svg" width={16} height={16} alt="Email" />      
-            <span className="text-[14px] font-[400] text-[#FFFFFFF2]">Pizzaiolo</span>
-          </div>
+            <a href="https://www.instagram.com/Pizzaiolo" target="_blank" className="text-[14px] font-[400] text-[#FFFFFFF2]">Pizzaiolo</a>
+            </div>
           <div className="flex flex-row space-x-1">     
           <Image src="/icons/Component 1 (1).svg" width={16} height={16} alt="Email" />
-          <span className="text-[14px] font-[400] text-[#FFFFFFF2]">MrBurger </span>
+          <a href="https://www.instagram.com/MrBurger" target="_blank" className="text-[14px] font-[400] text-[#FFFFFFF2]">MrBurger</a>
           </div>
         </div>
       </div>
@@ -45,3 +45,4 @@ export default function Header() {
     </header>
   );
 }
+
