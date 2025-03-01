@@ -1,10 +1,38 @@
 import Header from "../components/Header";
 import Footer from "@/components/Footer";
+import Head from 'next/head';
+
+const schemaData = {
+  "@context": "http://schema.org",
+  "@type": "Restaurant",
+  "name": "MrBurger",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Burger St.",
+    "addressLocality": "YourCity",
+    "addressRegion": "YourState",
+    "postalCode": "12345",
+    "addressCountry": "Country"
+  },
+  "telephone": "+420 736 700 880",
+  "url": "https://by-bc.com.com",
+  "image": "https://by-bc.com/images/B&C.png"
+};
 
 
 export default function Home() {
   return (
     <div>
+      <Head>
+      <title>B&C - Be Brave and Creative</title>
+      <meta name="description" content="Enjoy the best burgers in town. Freshly made, juicy, and served with friendly service. Visit us for an unforgettable burger experience." />
+      <meta name="robots" content="index, follow" />
+      <meta property="og:title" content="MrBurger - Delicious Burgers Delivered Fresh" />
+      <meta property="og:description" content="Enjoy the best burgers in town. Freshly made, juicy, and served with friendly service. Visit us for an unforgettable burger experience." />
+      <meta property="og:image" content="https://by-bc.com/images/B&C.png" />
+      <meta property="og:url" content="https://by-bc.com.com" />
+        <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
+      </Head>
       <Header />
       <main>
   <section className="w-full flex justify-center lg:mb-[170px] mb-[100px]">
