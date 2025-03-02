@@ -7,12 +7,12 @@ const schemaData = {
   "@type": "Restaurant",
   "name": "MrBurger",
   "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "123 Burger St.",
-    "addressLocality": "YourCity",
-    "addressRegion": "YourState",
-    "postalCode": "12345",
-    "addressCountry": "Country"
+    "@type": "Seifertova 1840/2, Prague",
+    "streetAddress": "Seifertova 1840/2, Prague 130 00",
+    "addressLocality": "Prague",
+    "addressRegion": "Prague",
+    "postalCode": "130 00",
+    "addressCountry": "Czech Republic"
   },
   "telephone": "+420 736 700 880",
   "url": "https://by-bc.com.com",
@@ -39,7 +39,7 @@ export default function Home() {
     <div className="w-full ">
       <img 
         src="/images/B&C.png" 
-        alt="B&C - Be Brave and Creative" 
+        alt="B&C - Be Brave and Creative Prague" 
         className="w-full lg:h-[709px]"
       />
     </div>
@@ -98,20 +98,20 @@ MrBurger</h4>
 
 
     <div class="flex justify-center mb-[21px]  items-center gap-[40px] ">
-    <img src="/images/Rectangle 5 (1).png" alt="BC" class="w-[81px] h-[81px] object-cover"></img>
+    <img src="/images/Rectangle 5 (1).png" alt="BC Prague" class="w-[81px] h-[81px] object-cover"></img>
     <div class="w-px h-[40px] bg-black"></div>
 
-    <img src="/images/Rectangle 4 (1).png" alt="BC" class="w-[81px] h-[81px] object-cover"></img>
+    <img src="/images/Rectangle 4 (1).png" alt="BC Prague" class="w-[81px] h-[81px] object-cover"></img>
 
     </div>
   </div>
  <div className="flex space-x-[25px] justify-center items-center px-4 lg:px-0">
   <div class="w-[175px] md:w-[250px] lg:w-[297px] h-[560px] flex-shrink-0 bg-gray-300">
-    <img src="/images/Rectangle 3 (1).png" alt="B&C" class="w-full h-full object-cover"></img>
+    <img src="/images/Rectangle 3 (1).png" alt="B&C Prague" class="w-full h-full object-cover"></img>
   </div>
 
   <div class="w-[175px] md:w-[250px] lg:w-[221px] h-[460px] flex-shrink-0 bg-gray-300">
-    <img src="/images/Rectangle 2 (1).png" alt="B&C" class="w-full h-full object-cover"></img>
+    <img src="/images/Rectangle 2 (1).png" alt="B&C Czech Republic" class="w-full h-full object-cover"></img>
   </div>
   </div>
 </div>
@@ -144,10 +144,10 @@ MrBurger</h4>
 <div className="flex space-x-[25px] justify-center items-center px-4 lg:px-0">
 
 <div class="w-[175px] md:w-[250px] lg:w-[221px] h-[460px] flex-shrink-0 bg-gray-300">
-    <img src="/images/Rectangle 2 (2).png" alt="B&C" class="w-full h-full object-cover"></img>
+    <img src="/images/Rectangle 2 (2).png" alt="B&C Czech Republic" class="w-full h-full object-cover"></img>
   </div>
   <div class="w-[175px] md:w-[250px] lg:w-[297px] h-[560px] flex-shrink-0 bg-gray-300">
-    <img src="/images/Rectangle 3 (2).png" alt="B&C" class="w-full h-full object-cover"></img>
+    <img src="/images/Rectangle 3 (2).png" alt="B&C Czech Republic" class="w-full h-full object-cover"></img>
   </div>
 </div>
   <div class="flex flex-col items-center lg:p-[80px] p-4 border border-black w-[370px] lg:w-[560px] h-[630px] flex-shrink-0">
@@ -168,10 +168,10 @@ Pizzaiolo</h4>
 Our partly menu is already available online, so give it a try </p>
 
     <div class="flex justify-center mb-[21px]  items-center gap-[40px] ">
-    <img src="/images/Rectangle 5 (1).png" alt="BC" class="w-[81px] h-[81px] object-cover"></img>
+    <img src="/images/Rectangle 5 (1).png" alt="BC Czech Republic" class="w-[81px] h-[81px] object-cover"></img>
     <div class="w-px h-[40px] bg-black"></div>
 
-    <img src="/images/Rectangle 4 (1).png" alt="BC" class="w-[81px] h-[81px] object-cover"></img>
+    <img src="/images/Rectangle 4 (1).png" alt="BC Czech Republic" class="w-[81px] h-[81px] object-cover"></img>
 
     </div>
   </div>
